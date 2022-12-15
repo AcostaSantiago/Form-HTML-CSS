@@ -22,18 +22,18 @@
       
     <form id="survey-form">
         
-        <label  class="palabra" for="firstname primernombre" id="name-label">Nombre</label>
+        <label  class="palabra" for="name" id="name-label">Nombre</label>
         <input id="name" type="text" placeholder="Ingrese su nombre"  required>
         <br></br>
        
-        <label  class="palabra" for="email" id="email-label">Email</label>
+        <label  class="palabra" for="email" id="email">Email</label>
         <input id="email" type="email" placeholder="Ingrese su correo" required>
 
         <br></br>
         
         <label class="palabra" for="numero" id="number-label" > Edad </label>
         
-        <input id="number" type="number"   min="1" max="100" placeholder="Ingrese su edad" >
+        <input id="number" type="numero"   min="1" max="100" placeholder="Ingrese su edad" >
         <br></br>
         
         <label  class="palabra" for="lang">¿Qué opción describe mejor su función actual?</label>
@@ -61,35 +61,41 @@
         <br></br>
 
         <p  class="palabra" >Cual de estos lenguajes manejas?</p>
-       <div id="mayonesa">
-        <label class="container">
-            <input type="checkbox" value="JavaScript">
-            <div class="checkmark"></div><p class="plenguajes">JavaScript</p>
-        </label> 
-        <label class="container">
-            <input type="checkbox" value="PHP">
-            <div class="checkmark"></div><p class="plenguajes">PHP</p>
-        </label> <label class="container">
-            <input type="checkbox" value="SQL">
-            <div class="checkmark"></div><p class="plenguajes">SQL</p>
-        </label> <label class="container">
-            <input type="checkbox" value="Java">
-            <div class="checkmark"></div><p class="plenguajes">Java</p>
-        </label> <label class="container">
-            <input type="checkbox" value="Python">
-            <div class="checkmark"></div><p class="plenguajes">Python</p>
-        </label> <label class="container">
-            <input type="checkbox" value="C#">
-            <div class="checkmark"></div><p class="plenguajes">C#</p>
-        </label> <label class="container">
-            <input type="checkbox" value="C++">
-            <div class="checkmark"></div><p class="plenguajes">C++</p>
-        </label> <label class="container">
-            <input type="checkbox" value="HTML">
-            <div class="checkmark"></div><p class="plenguajes">HTML</p>
-        </label> 
-        
-       </div>
+        <section id="programming-languages" class="languages-container">
+  
+            <label class="plenguajes">
+              <input type="checkbox" value="JavaScript">JavaScript
+            </label>  
+            
+            <label class="plenguajes">
+              <input type="checkbox" value="PHP">PHP
+            </label>
+          
+            <label class="plenguajes">
+              <input type="checkbox" value="SQL">SQL
+            </label>
+          
+            <label class="plenguajes">
+              <input type="checkbox" value="Java">Java
+            </label>
+            
+            <label class="plenguajes">
+              <input type="checkbox" value="Python">Python
+            </label>
+          
+            <label class="plenguajes">
+              <input type="checkbox" value="C#">C#
+            </label>
+          
+            <label class="plenguajes">
+              <input type="checkbox" value="C++">C++
+            </label>
+          
+            <label class="plenguajes">
+              <input type="checkbox" value="HTML">HTML
+            </label>
+          
+          </section>
         
         <br></br>
         <p   id="cactua" >Que experiencia tienes en el rubro?</p>
